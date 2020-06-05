@@ -33,5 +33,3 @@ COPY --from=builder /usr/local/bin/* /usr/local/bin/
 
 RUN adduser -D aws-nuke
 USER aws-nuke
-
-ENTRYPOINT ["/usr/local/bin/aws-nuke"]
